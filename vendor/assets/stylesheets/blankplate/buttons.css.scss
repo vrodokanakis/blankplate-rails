@@ -1,0 +1,146 @@
+/**
+ * BlankPlate | Yet another HTML5 Starter Kit
+ *
+ * BlankPlate Buttons stylesheet
+ *
+ * Normally you don't have to make any changes in this file.
+ * Your changes should be placed in styles.css file.
+ *
+ * @copyright	Copyright 2012, Dimitris Krestos
+ * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
+ * @link		http://vdw.staytuned.gr/html5-starter-kit-blankplate/
+ * @package		BlankPlate
+ * @version		v1.0.0
+ */
+
+/**
+ * BUTTONS
+ * Default grey button (based on Google styles)
+ * -------------------------------------------------------------------------------------------------
+ */
+.btn {
+	background-color: #F5F5F5;
+	background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+	border: 1px solid rgb(211, 211, 211);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	color: #444 !important;
+	cursor: default !important;
+	display: inline-block;
+	font-size: 13px;
+	height: 28px;
+	margin-bottom: 10px;
+	min-width: 54px;
+	padding: 0 8px;
+	text-align: center;
+	text-decoration: none !important;
+	-moz-user-select: none
+}
+
+.btn SPAN {
+	font: 13px/18px 'Open Sans', sans-serif !important;
+	vertical-align: top
+}
+
+.btn:hover {
+	border-color: #C6C6C6;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	color: #222 !important
+}
+
+A.btn {
+	height: 26px;
+	line-height: 26px
+}
+
+/* Fix vertical center in firefox */
+@-moz-document url-prefix() {
+
+	INPUT[type="button"].btn,
+	INPUT[type="submit"].btn {
+		padding-bottom: 2px
+	}
+
+	.btn SPAN {
+		display: block;
+		margin-bottom: 2px
+	}
+
+}
+
+/**
+ * BLUE BUTTON
+ * Blue color for buttons
+ * -------------------------------------------------------------------------------------------------
+ */
+.blue {
+	background-color: #4D90FE;
+	background-image: -moz-linear-gradient(center top , #4D90FE, #4787ED);
+	border: 1px solid #3079ED;
+	color: #FFF !important;
+	text-shadow:0 1px 1px rgba(0, 0, 0, 0.25)
+}
+
+.blue:hover {
+	background-color: #357AE8;
+	background-image: -moz-linear-gradient(center top , #4090FE, #357AE8);
+	border-color: #2F5887;
+	color: #FFF !important
+}
+
+/**
+ * RED BUTTON
+ * Red color for buttons
+ * -------------------------------------------------------------------------------------------------
+ */
+.red {
+	background-color: #D14836;
+	background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
+	border: 1px solid #D14836;
+	color: #FFF !important
+}
+
+.red:hover {
+	background-color: #D14836;
+	background-image: -moz-linear-gradient(center top , #DD4B39, #C53727);
+	border-color: #B0281A;
+	color: #FFF !important
+}
+
+/**
+ * YELLOW BUTTON
+ * Yellow color for buttons
+ * -------------------------------------------------------------------------------------------------
+ */
+.yellow {
+	background-color: #FFE86C;
+	background-image: -moz-linear-gradient(center top , #FFE86C, #FFE86C);
+	border: 1px solid #FFE86C;
+	color: #FFF !important
+}
+
+.yellow:hover {
+	background-color: #FFE86C;
+	background-image: -moz-linear-gradient(center top , #FFE86C, #FFE86C);
+	border-color: #E8B463;
+	color: #FFF !important
+}
+
+/**
+ * GREEN BUTTON
+ * Green color for buttons
+ * -------------------------------------------------------------------------------------------------
+ */
+.green {
+	background-color: #35AA47;
+	background-image: -moz-linear-gradient(center top , #35AA47, #35AA47);
+	border: 1px solid #359947;
+	color: #FFF !important
+}
+
+.green:hover {
+	background-color: #35AA47;
+	background-image: -moz-linear-gradient(center top , #35AA47, #1D943B);
+	border-color: #508C36;
+	color: #FFF !important
+}
