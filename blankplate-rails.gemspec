@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Integrate BlankPlate HTML5/CSS3 Starter Kit to Rails asset pipeline."
   s.description = "Blankplate is an alternative solution to save you time in frontend developing."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.0"
