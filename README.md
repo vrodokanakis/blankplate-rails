@@ -10,28 +10,28 @@ The `blankplate-rails` gem integrates `blankplate` kit with Rails asset pipeline
 
 Add `blankplate-rails` to your Gemfile and run `bundle install`:
 
-  gem "blankplate-rails"
+    gem "blankplate-rails"
 
 ### Include `blankplate-rails` stylesheets
 
 Add to your `app/assets/stylesheets/application.css`:
 
-  *= blankplate
+    *= blankplate
 
 This will include all blankplate's stylesheet assets.
 
 You can also include individual stylesheets, in the order you wish:
 
-  *= blankplate/reset
-  *= blankplate/grid
-  *= blankplate/typography
-  *= blankplate/helpers
-  *= blankplate/inputs
-  *= blankplate/buttons
-  *= blankplate/styles
-  *= blankplate/media
-  *= blankplate/conditions
-  *= blankplate/diagnostics
+    *= blankplate/reset
+    *= blankplate/grid
+    *= blankplate/typography
+    *= blankplate/helpers
+    *= blankplate/inputs
+    *= blankplate/buttons
+    *= blankplate/styles
+    *= blankplate/media
+    *= blankplate/conditions
+    *= blankplate/diagnostics
 
 ## Credits
 
