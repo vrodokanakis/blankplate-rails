@@ -1,6 +1,6 @@
 # Blankplate for Rails Asset Pipeline
 
-[Blankplate](https://bitbucket.org/vdw/blankplate) is an alternative HTML5/CSS3 Starter Kit to save you time in frontend developing.
+[Blankplate](https://github.com/vdw/BlankPlate) is an alternative HTML5/CSS3 Starter Kit to save you time in frontend developing.
 
 The `blankplate-rails` gem integrates `blankplate` kit with Rails asset pipeline.
 
