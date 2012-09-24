@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = BlankplateRails::VERSION
   s.authors     = ["Vassilis Rodokanakis"]
   s.email       = ["vrodokanakis@generation-y.gr"]
-  s.homepage    = "http://www.generation-y.gr"
+  s.homepage    = "https://github.com/vrodokanakis/blankplate-rails"
   s.summary     = "Integrate BlankPlate HTML5/CSS3 Starter Kit to Rails asset pipeline."
   s.description = "Blankplate is an alternative solution to save you time in frontend developing."
 
