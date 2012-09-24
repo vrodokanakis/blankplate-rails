@@ -1,0 +1,63 @@
+/**
+ * BlankPlate | Yet another HTML5 Starter Kit
+ *
+ * BlankPlate Snippets stylesheet
+ *
+ * Normally you don't have to make any changes in this file.
+ * Your changes should be placed in styles.css file.
+ *
+ * @copyright	Copyright 2012, Dimitris Krestos
+ * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
+ * @link		http://vdw.staytuned.gr/html5-starter-kit-blankplate/
+ * @package		BlankPlate
+ * @version		v1.1.0
+ */
+
+/**
+ * TEXT SIZE TOOL
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
+
+/* Html
+<div class="accessibility">
+	TEXT SIZE
+	<a href="#">A<span>-</span></a>
+	<a href="#">A<span>+</span></a>
+</div>
+*/
+.accessibility A:first-child {
+	font-size: 14px !important
+}
+
+.accessibility A SPAN {
+	font-size: 80%;
+	position: relative;
+	top: -0.4em
+}
+
+.accessibility A:first-child SPAN {
+	font-size: 80%;
+	position: relative;
+	top: -0.5em
+}
+
+/**
+ * FLASH MESSAGE BAR
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
+
+/* Html
+<div class="flash">A flash message</div>
+*/
+.flash {
+	background: rgba(0, 0, 0, 0.4);
+	color: white;
+	height: 24px;
+	padding-top: 6px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 100%
+}
