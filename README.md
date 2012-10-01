@@ -28,7 +28,6 @@ You can also include individual stylesheets, in the order you wish:
     *= blankplate/helpers
     *= blankplate/inputs
     *= blankplate/buttons
-    *= blankplate/base64
     *= blankplate/snippets
     *= blankplate/styles
     *= blankplate/media
