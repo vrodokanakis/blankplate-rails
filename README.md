@@ -16,23 +16,23 @@ Add `blankplate-rails` to your Gemfile and run `bundle install`:
 
 Add to your `app/assets/stylesheets/application.css`:
 
-    *= blankplate
+    *= require blankplate
 
 This will include all blankplate's stylesheet assets.
 
 You can also include individual stylesheets, in the order you wish:
 
-    *= blankplate/reset
-    *= blankplate/grid
-    *= blankplate/typography
-    *= blankplate/helpers
-    *= blankplate/inputs
-    *= blankplate/buttons
-    *= blankplate/snippets
-    *= blankplate/styles
-    *= blankplate/media
-    *= blankplate/conditions
-    *= blankplate/diagnostics
+    *= require blankplate/reset
+    *= require blankplate/grid
+    *= require blankplate/typography
+    *= require blankplate/helpers
+    *= require blankplate/inputs
+    *= require blankplate/buttons
+    *= require blankplate/snippets
+    *= require blankplate/styles
+    *= require blankplate/media
+    *= require blankplate/conditions
+    *= require blankplate/diagnostics
 
 ## Credits
 
