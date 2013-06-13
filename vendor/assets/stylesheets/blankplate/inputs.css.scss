@@ -10,7 +10,7 @@
  * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
  * @link		http://vdw.staytuned.gr/html5-starter-kit-blankplate/
  * @package		BlankPlate
- * @version		v1.2.4
+ * @version		v1.3.1
  */
 
 /**
@@ -28,13 +28,17 @@ INPUT, TEXTAREA, SELECT {
 	margin-bottom: 10px
 }
 
+INPUT[type="radio"] {
+	cursor: pointer
+}
+
 SELECT, INPUT[type="file"] {
-	height: 28px !important;
-	padding: 4px !important
+	height: 2.154em !important;
+	padding: 0.308em !important
 }
 
 INPUT[type="text"], INPUT[type="password"], TEXTAREA, LABEL {
-	padding: 4px
+	padding: 0.308em
 }
 
 INPUT:focus, TEXTAREA:focus {
@@ -46,9 +50,9 @@ INPUT:focus, TEXTAREA:focus {
 INPUT, TEXTAREA {
 	-webkit-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; /* Saf3.2+, Chrome */
 	   -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; /* FF4+ */
-		-ms-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; /* IE10? */
-		 -o-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; /* Opera 10.5+ */
-			transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+			-ms-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; /* IE10? */
+		 	 -o-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; /* Opera 10.5+ */
+					transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
 }
 
 SELECT {
@@ -56,16 +60,16 @@ SELECT {
 }
 
 OPTION {
-	padding: 0 8px
+	padding: 0 0.615em
 }
 
 LABEL {
 	display: block;
-	line-height: 18px
+	line-height: 1.385em
 }
 
 LABEL.inline {
 	display: inline-block;
-	line-height: 18px;
-	margin-bottom: 10px
+	line-height: 1.385em;
+	margin-bottom: 0.769em
 }

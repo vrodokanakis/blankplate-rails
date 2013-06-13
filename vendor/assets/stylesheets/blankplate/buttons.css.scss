@@ -10,7 +10,7 @@
  * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
  * @link		http://vdw.staytuned.gr/html5-starter-kit-blankplate/
  * @package		BlankPlate
- * @version		v1.2.4
+ * @version		v1.3.1
  */
 
 /**
@@ -26,7 +26,7 @@
 	background: 	  -o-linear-gradient(top, #f5f5f5 0%, #f1f1f1 100%); /* Opera 11.10+ */
 	background: 		-webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #f1f1f1)); /* Chrome,Safari4+ */
 	background: 		 linear-gradient(to bottom, #f5f5f5 0%, #f1f1f1 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#f1f1f1', GradientType=0); /* IE6-8 */
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#f1f1f1', GradientType=0); /* IE6-8 */
 	border: 1px solid rgb(211, 211, 211);
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 3px;
@@ -34,18 +34,20 @@
 	cursor: pointer !important;
 	display: inline-block;
 	font-size: 13px;
-	height: 28px;
+	height: 2.154em;
 	margin-bottom: 10px;
 	min-width: 54px;
-	padding: 0 8px;
+	padding: 0 0.615em;
 	text-align: center;
 	text-decoration: none !important;
 	-moz-user-select: none
 }
 
 .btn SPAN {
-	font: 13px/18px 'Open Sans', sans-serif !important;
-	vertical-align: top
+	font: inherit/1.385em 'Open Sans', sans-serif !important;
+	display: block;
+	line-height: 2.000em;
+	vertical-align: middle
 }
 
 .btn:hover {
@@ -55,8 +57,8 @@
 }
 
 A.btn {
-	height: 26px;
-	line-height: 26px
+	height: 2.000em;
+	line-height: 2.000em
 }
 
 /* Fix vertical center in firefox */
@@ -65,11 +67,6 @@ A.btn {
 	INPUT[type="button"].btn,
 	INPUT[type="submit"].btn {
 		padding-bottom: 2px
-	}
-
-	.btn SPAN {
-		display: block;
-		margin-bottom: 2px
 	}
 
 }
@@ -190,5 +187,3 @@ A.btn {
 	border-color: #508C36;
 	color: #FFF !important
 }
-
-/* http://www.colorzilla.com/gradient-editor/ */
